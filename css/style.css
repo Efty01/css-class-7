@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+background-image: linear-gradient(to bottom, #ee2e24, #ec544e);
+padding: 10px 0;
+color: aliceblue;
+font-family: 'Anek Tamil', sans-serif;
+font-family: 'Arimo', sans-serif;
+}
+
+.row{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  font-weight: wrap;
+}
+
+.intro{
+  width: 20%;
+}
+
+.news{
+  width: 80%;
+}
+
+.navbar{  
+font-family: 'Arimo', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+width: 1170px;
+margin: auto;
+padding-top: 10px;
+display: flex;
+flex-wrap: wrap;    
+}
+
+.navbar a{
+}
+
+.logobranch{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.branch{
+  font-size: 20px;
+  margin-left: 10px;
+  line-height: 45px;
+  color: gray;
+}
+
+.nav-texts{
+  padding: 30px;
+}
+
+.nav-seminar{
+  background-color: #ee2e24;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+  width: 90px;
+  height: 70px;
+}
+
+.nav-texts a {
+  color: gray;
+}
+
+.nav-seminar a{
+  color: white;
+}
